@@ -63,6 +63,9 @@ public class LinkedList<T> {
             this.next = null;
         }
     }
+
+
+
 }
 
 

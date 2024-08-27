@@ -1,6 +1,4 @@
-package com.example.shippingmanagementsystem.model;
-
-
+package com.yourname.model;
 
 public class Pallet {
     private String description;
@@ -22,6 +20,7 @@ public class Pallet {
     }
 
     // Getters and Setters
+
 
     public String getDescription() {
         return description;
@@ -61,5 +60,16 @@ public class Pallet {
 
     public void setTotalSize(double totalSize) {
         this.totalSize = totalSize;
+    }
+
+    @Override
+    public String toString() {
+        return "Pallet{" +
+                "description='" + description + '\'' +
+                ", quantity=" + quantity +
+                ", unitValue=" + unitValue +
+                ", totalWeight=" + totalWeight +
+                ", totalSize=" + totalSize +
+                '}';
     }
 }
